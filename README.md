@@ -1,10 +1,8 @@
-# Nikhil's Portfolio Website
-
-![nikhildasarportfolio](https://github.com/kakashihatakesh6/my-portfolio/assets/95236055/f3595870-44b7-40c2-bb22-33ba836b391a)
+# Clinic Management System
 
 ## Introduction
 
-Welcome to the GitHub repository for my personal portfolio website. This repository contains the source code, assets, and documentation for my portfolio, showcasing my skills, projects, and achievements.
+Welcome to the GitHub repository for our clinic website. This repository contains the source code, assets, and documentation for our website.
 
 ## Table of Contents
 
@@ -30,6 +28,7 @@ Note:- If you are a complete beginner ignore these files package.json, config.js
 - HTML5
 - CSS3
 - Vanilla JavaScript
+- NodeJs, Express, MongoDB
 - Some Additional js files for animation such as typeJs, Bootstrap Icons, Bootstrap Vendor files, flickity etc.
 
 ## Project Structure
@@ -62,8 +61,8 @@ The repository follows a specific structure to keep the codebase organized. Belo
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/kakashihatakesh6/my-portfolio.git
-   cd my-portfolio
+   git clone https://github.com/kakashihatakesh6/clinic-management-system
+   cd clinic-management-system
 
 ## Deployment
    
