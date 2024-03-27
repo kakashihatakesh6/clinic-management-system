@@ -6,7 +6,7 @@ const templatePath = path.join(__dirname, '../templates');
 const collection=require("./mongodb")
 const Patient = require ('./patients')
 const doc = require('./doclogin')
-const docter = require('../module./doctor')
+const docter = require('./doctor')
 const router = express.Router()
 
 app.use(express.static('public'));
@@ -30,6 +30,12 @@ app.get('/aboutus', (req, res) => {
 app.get('/contactus', (req, res) => {
     res.render('contactus'); // 
 });
+
+app.get('/service', (req, res) => {
+    res.render('service'); // 
+});
+
+
 
 app.get('/login', (req, res) => {
     res.render('login'); // Assuming 'login.hbs' is in your views directory
@@ -151,14 +157,7 @@ app.post("/docsignup",async (req,res)=>{
     
     })
 
-const fetchuser = require('./fetchuser');
-
-// Protected route using fetchuser middleware
-app.get('/protected-route', fetchuser, (req, res) => {
-    // Access user data from req.user
-    res.send('You are authenticated!');
-});
-
+   
 
 app.listen(3000,()=>{
     console.log("posrt connected");
